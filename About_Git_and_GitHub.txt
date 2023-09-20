@@ -1,0 +1,9 @@
+Git:
+
+Version control system - Software used to keep track of all the codes used when updating code for different versions
+Helps keep track of code changes
+Can be used to collaborate the code ie multiple people can work on same codebase
+
+GitHub:
+
+Its a Git repository hosting service web application.
