@@ -13,7 +13,7 @@ git pull                  //Pull from Git web->Local repository-Note pull inside
 //Updating changes(Insert,Modify,delete) actions from local repository->Git
 git add FILENAME             //Untracked file to Staging area
 git commit -m "MESSAGE"      //Staging to local Git area
-git push origin main         // Local Git to GitHub web
+git push origin main         // Local Git to GitHub web IF BRANCH IS MAIN
 
 git add .                    //All files sent to staging area
 
@@ -23,6 +23,16 @@ git remote add origin HTTPLINK    //Adding origin HTTP
 git branch -M main                //Change branch name to main
 
 //To Check the branch
-git branch
+git branch               //The branch I am currently in 
+git branch -a            //Display all the available branches
+git checkout BRANCHNAME    //Move to a new branch 
+
+git diff BRANCHNAME      //Difference b/w current branch and the BRANCHNAME
+
+git branch BRANCHNAME     //To Create new branch
+
+//In high-lvl projects we can't merge our updated branch to main branch as won't be authorised.So in that
+case we pull-up request
+Pull Request - Request to merge changes made in the branch code to the main code
 
 
