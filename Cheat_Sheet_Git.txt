@@ -15,4 +15,14 @@ git add FILENAME             //Untracked file to Staging area
 git commit -m "MESSAGE"      //Staging to local Git area
 git push origin main         // Local Git to GitHub web
 
+git add .                    //All files sent to staging area
+
+//Local folder created and converting the folder to a git folder
+git init 
+git remote add origin HTTPLINK    //Adding origin HTTP
+git branch -M main                //Change branch name to main
+
+//To Check the branch
+git branch
+
 
