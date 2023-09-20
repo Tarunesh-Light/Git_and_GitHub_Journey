@@ -1,0 +1,18 @@
+//Setting up username and email in our local system for git
+
+git config --global user.name "ANY NAME"  
+git config --global user.email "EMAIL"
+
+//Status of the repository
+git status
+
+//Copying folders from Git->Local repository
+git clone origin          //Clone initally-origin-HTTP link of the GitHub folder
+git pull                  //Pull from Git web->Local repository-Note pull inside the repository
+
+//Updating changes(Insert,Modify,delete) actions from local repository->Git
+git add FILENAME             //Untracked file to Staging area
+git commit -m "MESSAGE"      //Staging to local Git area
+git push origin main         // Local Git to GitHub web
+
+
