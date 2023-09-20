@@ -9,6 +9,7 @@ git status
 //Copying folders from Git->Local repository
 git clone origin          //Clone initally-origin-HTTP link of the GitHub folder
 git pull                  //Pull from Git web->Local repository-Note pull inside the repository
+git pull origin main      //To pull changes into current branch from main 
 
 //Updating changes(Insert,Modify,delete) actions from local repository->Git
 git add FILENAME             //Untracked file to Staging area
